@@ -22,7 +22,7 @@
 .footer {
   position: fixed;
   bottom: 0;
-  height: 50px;
+  height: 20px;
   background-color: #7a95fc;
   color: white;
   letter-spacing: 3px;
@@ -44,10 +44,3 @@
   }
 }
 
-.chart {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 30px 0;
-  margin-bottom: 70px;
-}
