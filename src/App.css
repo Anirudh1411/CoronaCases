@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.header img {
+  width: 45px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background-color: #7a95fc;
+  color: white;
+  letter-spacing: 3px;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: greenyellow;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .body {
+    flex-direction: column;
+  }
+}
+
+.chart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  margin-bottom: 70px;
+}
